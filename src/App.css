@@ -1,0 +1,146 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: palevioletred;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  color: teal;
+  margin-left: 50px;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+.login button {
+  margin-left: 60px;
+}
+
+
+.register {
+  display: flex;
+  align-items: center;
+  color: teal;
+  margin-left: 50px;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+.register button {
+  margin-left: 55px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  color: teal;
+  margin-left: 500px;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-top: 1000px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid teal;
+  justify-content: space-evenly;
+  width: 250px;
+  margin-left: 41.5%;
+  margin-top: 5%;
+  border-radius: 25px;
+  height: 270px;
+  background-color: purple;
+  color: wheat;
+}
+
+.login input {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.login button {
+  align-items: center;
+  margin-left: 39%;
+  margin-top: 8px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid teal;
+  justify-content: space-evenly;
+  width: 250px;
+  margin-left: 41.5%;
+  margin-top: 5%;
+  border-radius: 25px;
+  height: 270px;
+  background-color: purple;
+  color: wheat;
+}
+
+.register button {
+  align-items: center;
+  margin-left: 37%;
+  margin-top: 8px;
+}
+
+.register input {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: wheat;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
