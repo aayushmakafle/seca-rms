@@ -15,6 +15,9 @@ let App=()=>{
           <h4>
             <Link to={"/register"}>Register</Link>
           </h4>
+           <h4>
+            <Link to={"/food menu"}>Food Menu</Link>
+          </h4>
         </div>
       <Outlet/>
       <Footer/>
