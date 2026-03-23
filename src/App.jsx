@@ -1,27 +1,27 @@
 import { Link, Outlet } from "react-router"
-import "./App.css"
-import Footer from "./components/Footer"
-let App=()=>{
+
+  
+function App() {
   return(
+    <>
+    {/* navbar should be placed here */}
     <div>
-      <div className="navbar">
-        
-          <h4>
-            <Link to={"/"}>Home</Link>
-          </h4>
-          <h4>
-            <Link to={"/login"}>Login</Link>
-          </h4>
-          <h4>
-            <Link to={"/register"}>Register</Link>
-          </h4>
-           <h4>
-            <Link to={"/food menu"}>Food Menu</Link>
-          </h4>
-        </div>
-      <Outlet/>
-      <Footer/>
+      Navbar
+      {/* link should be placed here only  */}
+      <Link to={"/"}>Home</Link>
+      <br/>
+      <Link to={"/todo"}>TodoExample</Link>
+      <br/>
+      <Link to={"/user/73586285"}>User</Link>
+      <br/>
     </div>
+    <Outlet/>
+    {/* footer should be placed here only */}
+    <div>
+      Footer
+    </div>
+    {/* all route config should be here  */}
+    </>
   )
 }
 export default App
